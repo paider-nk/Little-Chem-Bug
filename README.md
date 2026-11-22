@@ -1,6 +1,6 @@
 # Little-Chem-Bug
 
-程序名 **ChemWorkbench**，中文名「计算化学工作台」。面向 Gaussian 和 ORCA 的 Windows 桌面工具：从 SMILES、分子名称、聚合物链节、金属配合物或 CIF 晶体结构生成三维起始几何和可直接提交的输入文件；批量跑完计算后，在同一个界面里完成日志解析、前线轨道、静电势表面和能量分析。
+程序名 ChemWorkbench，中文名「化小区」。面向 Gaussian 和 ORCA 的 Windows 桌面工具：从 SMILES、分子名称、聚合物链节、金属配合物或 CIF 晶体结构生成三维起始几何和可直接提交的输入文件；批量跑完计算后，在同一个界面里完成日志解析、前线轨道、静电势表面和能量分析。
 
 **A Windows GUI for Gaussian and ORCA: build 3D inputs from SMILES, names, polymers, metal complexes or CIF files, batch-run jobs, then analyze results — log reports, HOMO/LUMO levels, ESP surfaces (Multiwfn + VMD), binding and solvation energies, and density differences. Self-contained x64 build, no Python needed; input generation works offline.**
 
