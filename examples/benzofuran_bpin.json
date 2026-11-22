@@ -1,0 +1,35 @@
+{
+  "smiles": "CC1(C)OB(c2coc3ccccc23)OC1(C)C",
+  "formula": "C14H17BO3",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 35,
+  "geometry_method": "ETKDGv3 + UFF（1 个构象中选取）",
+  "energy": 83.73196130259346,
+  "source": "SMILES",
+  "warnings": [
+    "自旋多重度需按目标电子态核对；电子数奇偶校验不能判定基态自旋。",
+    "检测到 1 个三配位硼中心；初始结构已用保持全部键长与环闭合的 UFF 受约束预优化处理。Gaussian 优化输入将冻结对应的 B 相关二面角（主约束 180°）以维持共面。",
+    "构象筛选仅提供初始几何，不保证全局最低能构象；力场能量不是 Gaussian 能量。"
+  ],
+  "repeat_unit": null,
+  "degree": null,
+  "end_group": null,
+  "settings": {
+    "method": "B3LYP",
+    "basis": "6-31G(d)",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": null,
+    "multiplicity": null,
+    "conformers": 1,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "Benzofuran_BPin",
+    "checkpoint": "benzofuran_bpin",
+    "degree": 5,
+    "end_group": "hydrogen"
+  },
+  "input": "CC1(C)OB(c2coc3ccccc23)OC1(C)C",
+  "mode": "smiles"
+}

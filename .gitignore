@@ -1,0 +1,59 @@
+# --- 打包与构建产物：不入库 ---
+build/
+build-release/
+dist/
+*.spec
+*.exe
+*.dll
+*.pyd
+*.so
+*.zip
+*.7z
+_internal/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.molsimplify/
+.coverage
+htmlcov/
+
+# --- 计算化学的中间文件与输出 ---
+*.chk
+*.fchk
+*.fch
+*.gbw
+*.log
+*.out
+*.cube
+*.cub
+*.molden
+*.molden.input
+*.scr
+*.rwf
+*.tmp
+*.mo
+*.dens
+*.pot
+
+# 随附样例必须保留（上面的规则会误伤）
+!examples/*.out
+!examples/*.log
+!examples/*.chk
+
+# --- 编辑器与系统 ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store

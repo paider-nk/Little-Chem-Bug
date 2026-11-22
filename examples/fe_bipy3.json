@@ -1,0 +1,48 @@
+{
+  "smiles": "[H]C1=C([H])C([H])=[N]2->[Fe]34(<-[N]5=C([H])C([H])=C([H])C([H])=C5C2=C1[H])(<-[N]1=C([H])C([H])=C([H])C([H])=C1C1=C([H])C([H])=C([H])C([H])=[N]->31)<-[N]1=C([H])C([H])=C([H])C([H])=C1C1=C([H])C([H])=C([H])C([H])=[N]->41",
+  "formula": "C30H24FeN6",
+  "charge": 2,
+  "multiplicity": 1,
+  "atom_count": 61,
+  "geometry_method": "molSimplify 配体定向组装（保持构建坐标）",
+  "energy": null,
+  "source": "molSimplify 2.0.0",
+  "warnings": [
+    "molSimplify 2.0.0：Fe，氧化态 +2，八面体，6 条金属–配位原子连接。",
+    "按指定配体和构型组装初始结构；未启用神经网络键长 / 自旋预测，不自动确定基态或枚举 cis/trans 等异构体。",
+    "金属–配体连接以 0.1 阶写入 Gaussian Connectivity；该数值记录拓扑，不是物理键级或键长冻结约束。",
+    "总电荷和多重度由用户指定；请核对质子化态、氧化态、基组 / 赝势及最终优化结构。"
+  ],
+  "repeat_unit": null,
+  "degree": null,
+  "end_group": null,
+  "complex_spec": {
+    "metal": "Fe",
+    "oxidation_state": 2,
+    "geometry": "oct",
+    "ligands": [
+      {
+        "kind": "library",
+        "value": "bipy",
+        "count": 3
+      }
+    ]
+  },
+  "settings": {
+    "method": "B3LYP",
+    "basis": "Def2SVP",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": 2,
+    "multiplicity": 1,
+    "conformers": 20,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "fe_bipy3",
+    "checkpoint": "fe_bipy3",
+    "degree": 5,
+    "end_group": "hydrogen",
+    "boron_preprocess": "strict",
+    "boron_bond_tolerance": 0.15
+  }
+}

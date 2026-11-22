@@ -1,0 +1,37 @@
+{
+  "smiles": "CCCCCCCCCC",
+  "formula": "C10H22",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 32,
+  "geometry_method": "ETKDGv3 + MMFF94s（5 个构象中选取）",
+  "energy": -4.467431198392362,
+  "source": "链节 SMILES · 聚合度 5 · 两端氢封端",
+  "warnings": [
+    "按尾 → 下一链节头的方向重复 5 次，连接处均为单键，两端氢封端。",
+    "这是有限长度的封端分子链，不是周期性无限聚合物；不会模拟聚合反应或自动改变链节内的键。",
+    "重复复制输入中的立体信息，不自动生成无规 / 间规序列；长链构象采样需另行充分检查。",
+    "自旋多重度需按目标电子态核对；电子数奇偶校验不能判定基态自旋。",
+    "构象筛选仅提供初始几何，不保证全局最低能构象；力场能量不是 Gaussian 能量。"
+  ],
+  "repeat_unit": "*CC*",
+  "degree": 5,
+  "end_group": "hydrogen",
+  "settings": {
+    "method": "B3LYP",
+    "basis": "6-31G(d)",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": null,
+    "multiplicity": null,
+    "conformers": 5,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "Polyethylene_n5",
+    "checkpoint": "polyethylene_n5",
+    "degree": 5,
+    "end_group": "hydrogen"
+  },
+  "input": "*CC*",
+  "mode": "polymer"
+}

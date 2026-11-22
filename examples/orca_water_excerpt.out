@@ -1,0 +1,37 @@
+ORCA water calculation: selected output sections
+|  1> ! HF def2-SVP Opt Freq TightSCF CPCM(Water)
+CARTESIAN COORDINATES (ANGSTROEM)
+---------------------------------
+  O      0.000000    0.058857    0.058857
+  H      0.000000   -0.058426    0.999570
+  H      0.000000    0.999570   -0.058426
+
+----------------------------
+ Total Charge           Charge          ....    0
+ Multiplicity           Mult            ....    1
+ORBITAL ENERGIES
+----------------
+
+  NO   OCC          E(Eh)            E(eV) 
+   0   2.0000     -20.540813      -558.9439 
+   1   2.0000      -1.320009       -35.9193 
+   2   2.0000      -0.703108       -19.1325 
+   3   2.0000      -0.573356       -15.6018 
+   4   2.0000      -0.499142       -13.5823 
+   5   0.0000       0.197157         5.3649 
+   6   0.0000       0.278518         7.5789 
+   7   0.0000       0.808701        22.0059 
+   8   0.0000       0.894968        24.3533 
+   9   0.0000       1.175026        31.9741 
+MULLIKEN ATOMIC CHARGES
+-----------------------
+   0 O :   -0.398099
+   1 H :    0.199050
+   2 H :    0.199050
+Sum of atomic charges:    0.0000000
+
+--------------------------------
+FINAL SINGLE POINT ENERGY       -75.971717604334
+Final Gibbs free energy         ...    -75.96646469 Eh
+                             ****ORCA TERMINATED NORMALLY****
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 35 seconds 701 msec

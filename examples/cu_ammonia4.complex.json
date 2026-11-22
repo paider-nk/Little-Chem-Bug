@@ -1,0 +1,12 @@
+{
+  "metal": "Cu",
+  "oxidation_state": 2,
+  "geometry": "sqp",
+  "ligands": [
+    {
+      "kind": "library",
+      "value": "ammonia",
+      "count": 4
+    }
+  ]
+}

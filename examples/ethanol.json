@@ -1,0 +1,29 @@
+{
+  "smiles": "CCO",
+  "formula": "C2H6O",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 9,
+  "geometry_method": "ETKDGv3 + MMFF94s（1 个构象中选取）",
+  "energy": -1.336857063471026,
+  "source": "SMILES",
+  "warnings": [
+    "自旋多重度需按目标电子态核对；电子数奇偶校验不能判定基态自旋。",
+    "构象筛选仅提供初始几何，不保证全局最低能构象；力场能量不是 Gaussian 能量。"
+  ],
+  "settings": {
+    "method": "B3LYP",
+    "basis": "6-31G(d)",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": null,
+    "multiplicity": null,
+    "conformers": 20,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "Ethanol",
+    "checkpoint": "ethanol"
+  },
+  "input": "CCO",
+  "mode": "smiles"
+}

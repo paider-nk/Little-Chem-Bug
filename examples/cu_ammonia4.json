@@ -1,0 +1,48 @@
+{
+  "smiles": "[H][N]([H])([H])->[Cu](<-[N]([H])([H])[H])(<-[N]([H])([H])[H])<-[N]([H])([H])[H]",
+  "formula": "H12CuN4",
+  "charge": 2,
+  "multiplicity": 2,
+  "atom_count": 17,
+  "geometry_method": "molSimplify 配体定向组装（保持构建坐标）",
+  "energy": null,
+  "source": "molSimplify 2.0.0",
+  "warnings": [
+    "molSimplify 2.0.0：Cu，氧化态 +2，平面四方，4 条金属–配位原子连接。",
+    "按指定配体和构型组装初始结构；未启用神经网络键长 / 自旋预测，不自动确定基态或枚举 cis/trans 等异构体。",
+    "金属–配体连接以 0.1 阶写入 Gaussian Connectivity；该数值记录拓扑，不是物理键级或键长冻结约束。",
+    "总电荷和多重度由用户指定；请核对质子化态、氧化态、基组 / 赝势及最终优化结构。"
+  ],
+  "repeat_unit": null,
+  "degree": null,
+  "end_group": null,
+  "complex_spec": {
+    "metal": "Cu",
+    "oxidation_state": 2,
+    "geometry": "sqp",
+    "ligands": [
+      {
+        "kind": "library",
+        "value": "ammonia",
+        "count": 4
+      }
+    ]
+  },
+  "settings": {
+    "method": "B3LYP",
+    "basis": "Def2SVP",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": 2,
+    "multiplicity": 2,
+    "conformers": 20,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "cu_ammonia4",
+    "checkpoint": "cu_ammonia4",
+    "degree": 5,
+    "end_group": "hydrogen",
+    "boron_preprocess": "strict",
+    "boron_bond_tolerance": 0.15
+  }
+}

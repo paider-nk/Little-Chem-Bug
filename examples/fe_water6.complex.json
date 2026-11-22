@@ -1,0 +1,12 @@
+{
+  "metal": "Fe",
+  "oxidation_state": 2,
+  "geometry": "oct",
+  "ligands": [
+    {
+      "kind": "library",
+      "value": "water",
+      "count": 6
+    }
+  ]
+}

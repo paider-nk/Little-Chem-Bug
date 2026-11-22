@@ -1,0 +1,41 @@
+{
+  "smiles": "Cc1cc(-c2ccc(C(C)(C)C)cc2)cc(C)c1B1c2cc3ccc2N2B(c4c(C)cc(-c5ccc(C(C)(C)C)cc5)cc4C)c4cc(ccc4N12)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc(cc1)-c1ccc-3cc1",
+  "formula": "C102H84B2N2",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 190,
+  "geometry_method": "ETKDGv3 + GFN2-xTB / tblite（tight）",
+  "energy": null,
+  "source": "SMILES",
+  "warnings": [
+    "自旋多重度需按目标电子态核对；电子数奇偶校验不能判定基态自旋。",
+    "已用 GFN2-xTB / tblite（tight） 优化一个初始构象；xTB 坐标仅作 Gaussian 起始结构，不能替代最终量化优化。",
+    "硼几何投影：最大键长变化 0.000006 Å，最大二面角偏差 0.0009°，B 离邻原子平面的最大距离 0.000002 Å。键长以整体预处理后的坐标为参考。",
+    "检测到 2 个三配位硼中心；所有原有键写入 Connectivity，保留环闭合拓扑。",
+    "构象筛选仅提供初始几何，不保证全局最低能构象；力场能量不是 Gaussian 能量。"
+  ],
+  "repeat_unit": null,
+  "degree": null,
+  "end_group": null,
+  "complex_spec": null,
+  "settings": {
+    "method": "B3LYP",
+    "basis": "6-31G(d)",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": null,
+    "multiplicity": null,
+    "conformers": 1,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "Molecule",
+    "checkpoint": "boron_macrocycle_projected",
+    "degree": 5,
+    "end_group": "hydrogen",
+    "boron_preprocess": "projected",
+    "boron_bond_tolerance": 0.03,
+    "preprocess_method": "tblite"
+  },
+  "input": "CC1=CC(C2=CC=C(C(C)(C)C)C=C2)=CC(C)=[C@]1[B@]3C4=CC(C5=CC=C(C6=CC=C(C7=CC=C(C8=CC=C9C=C8)C=C7)C=C6)C=C5)=CC=C4[N@]%10N3C%11=C(C=C(C%12=CC=C(C%13=CC=C(C%14=CC=C(C%15=CC=C(C%16=CC=C9C=C%16)C=C%15)C=C%14)C=C%13)C=C%12)C=C%11)[B@]%10[C@]%17=C(C)C=C(C%18=CC=C(C(C)(C)C)C=C%18)C=C%17C",
+  "mode": "smiles"
+}

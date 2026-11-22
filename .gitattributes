@@ -1,0 +1,17 @@
+* text=auto
+
+# Windows 批处理必须是 CRLF，否则 cmd 解析会出错
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Python 与文档统一 LF
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.tcl text eol=lf
+*.cif text eol=lf
+
+# 图片按二进制处理
+*.png binary
+*.jpg binary

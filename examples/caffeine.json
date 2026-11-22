@@ -1,0 +1,30 @@
+{
+  "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+  "formula": "C8H10N4O2",
+  "charge": 0,
+  "multiplicity": 1,
+  "atom_count": 24,
+  "geometry_method": "ETKDGv3 + MMFF94s（1 个构象中选取）",
+  "energy": -123.4937271393154,
+  "source": "PubChem CID 2519",
+  "warnings": [
+    "名称由 PubChem 解析，请核对返回的 SMILES 和所需异构体、质子化状态。",
+    "自旋多重度需按目标电子态核对；电子数奇偶校验不能判定基态自旋。",
+    "构象筛选仅提供初始几何，不保证全局最低能构象；力场能量不是 Gaussian 能量。"
+  ],
+  "settings": {
+    "method": "B3LYP",
+    "basis": "6-31G(d)",
+    "job": "optfreq",
+    "memory_gb": 4,
+    "processors": 4,
+    "charge": null,
+    "multiplicity": null,
+    "conformers": 20,
+    "extra_keywords": "SCF=XQC Int=UltraFine",
+    "title": "Caffeine",
+    "checkpoint": "caffeine"
+  },
+  "input": "caffeine",
+  "mode": "name"
+}
